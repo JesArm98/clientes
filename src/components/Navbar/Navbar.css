@@ -1,0 +1,104 @@
+.NavbarWeb li{
+    color: inherit;
+    text-decoration: none;
+    animation: ease-in;
+}
+.NavbarWeb ul {
+    padding-inline-start: 0px;
+}
+
+.NavbarWeb li:hover {
+    border-bottom: 3px solid #D45F35; 
+    border-radius: 5%;
+   
+}
+
+
+li{
+ list-style: none;
+ font-family: 'League Spartan';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 23px;
+ line-height: 21px;
+}
+
+
+
+.navbar {
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    top: 0; 
+    z-index: 1000; 
+    
+}
+  
+.navbarList {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none; 
+    padding: 0; 
+}
+  
+.navbarList li, .navbarList li a { 
+   
+    text-decoration: none; 
+}
+
+
+  /* Aplica el desplazamiento suave */
+html {
+    scroll-behavior: smooth;
+  }
+
+  @media (max-width: 480px) {
+  .NavbarWeb{
+    display:none !important
+    
+  }
+
+  .logoCell{
+    padding: 8px;
+  }
+
+
+}
+
+@media (min-width: 481px) {
+ .logoCell{
+    display: none;
+ }
+
+ .cellDiv{
+    display: none !important;
+ }
+  
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 899px) {
+    /* Estilos para tablets */
+   .NavbarWeb{
+    display: none !important;
+   }
+
+   .cellDiv{
+    display: flex !important;
+    height: 86px;
+   }
+
+   .logoCell{
+    display: flex !important;
+   }
+  }
+
+  @media screen and (max-width:320px) {
+    .logoCell {
+      width: 60%;
+  }
+  .css-psyd1j-MuiSvgIcon-root{
+    font-size: 40px !important;
+    margin-top: 5px;
+  }
+  }

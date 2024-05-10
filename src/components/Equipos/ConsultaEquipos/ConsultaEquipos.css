@@ -1,0 +1,10 @@
+.consultaEquipo{
+    position: relative;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
